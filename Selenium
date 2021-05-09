@@ -1,0 +1,15 @@
+package Test;
+
+import org.openqa.selenium.Webdriver;
+import org.openqa.seleniumfirefox.FirefoxDriver;
+public class FirstSeleniumtest
+{
+  public static void main(String[] args) 
+  {
+	WebDriver driver = new Firefoxdriver();
+	driver.get("https://www.flipkart.com/")
+	driver.quit();
+	
+}
+	
+}
